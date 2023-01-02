@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko" class="bg-blue-300">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            button {
+                line-height: 2.5;
+                color:rgb(255, 32, 32);
+                text-shadow: 1px 1px 1px #000;
+                border-radius: 10px;
+                background-color: rgb(253, 0, 0);
+                box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                                        inset -2px -2px 3px rgba(0, 0, 0, .6);
+            }
+            .styled:hover {
+                background-color: rgb(123, 255, 0);
+            }
+        </style>
+    </head>
+    <body>
+
+        <table width="560" class="border-separate border-spacing-0 border border-slate-50">
+            <thead>
+                <tr>
+                    <th class="border border-slate-50 text-blue-600">노래 제목</th>
+                    <th class="border border-slate-50 text-blue-600">영상</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border border-slate-50 text-blue-600">야화</td>
+                    <td class="border border-slate-50"><button class="styled rounded-lg" onClick="location.href='야화.html'">야화</button></td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-50 text-blue-600">어둑시니</td>
+                    <td class="border border-slate-50"><button class="styled rounded-lg" onClick="location.href='어둑시니.html'">어둑시니</button></td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-50 text-blue-600">베텔기우스</td>
+                    <td class="border border-slate-50"><button class="styled rounded-lg" onClick="location.href='베텔기우스.html'">베텔기우스</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <button class="navyBtn styled" onClick="location.href='야화.html'">야화</button>
+    </body>
+</html>
